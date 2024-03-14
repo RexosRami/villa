@@ -1,0 +1,104 @@
+.fourthsection{
+    height: 300vh;
+}
+.fourthsection .part1 {
+    margin-top: 50px;
+    text-align: center;
+    height: 50vh;
+}
+.fourthsection .part1 h6{
+    color: #ee626b;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.fourthsection .part1 h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 20px;
+    line-height: 56px;
+}
+.fourthsection .part2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+.fourthsection .part2 .card{
+    width: 30%;
+    background-color: #ededed;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.fourthsection .part2 .card .img{
+    border-radius: 20px;
+}
+.fourthsection .part2 .card .category-price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+.fourthsection .part2 .card .category-price h1{
+    font-size: 20px;
+    color: #f35525;
+    font-weight: bold;
+
+}
+.fourthsection .part2 .card .category-price .category{
+    background-color: #ee626b3d;
+    padding: 10px;
+    border-radius: 15px;
+}
+.fourthsection .part2 .card .title{
+    font-size: 20px;
+    text-align: center;
+    color: #1e1e1e;
+    font-weight: 700;
+}
+.fourthsection .part2 .card  .details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.fourthsection .part2 .card  .details .line{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.fourthsection .part2 .card  .details .line h2 span{
+    font-weight: bold;
+}
+
+.fourthsection .part2 .card  .divider {
+    width: 80%;
+    height: 2px;
+    margin: 0 auto;
+    background-color: rgba(128, 128, 128, 0.115);
+}
+.fourthsection .part2 .card .button   {
+    display: inline-block;
+    background-color: #1e1e1e;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 30px;
+    border-radius: 25px;
+    transition: all .3s;
+    text-align: center;
+}
+.fourthsection .part2 .card .button:hover   {
+    background-color: #f35525;
+
+}
